@@ -15,7 +15,7 @@ vendored = ["native-tls/vendored"]
 
 [dependencies]
 native-tls = "0.2"
-hyper = { git = "https://github.com/hyperium/hyper" }
+hyper = { git = "https://github.com/hobofan/hyper", rev = "c7b0763926d2abd60ff719ada83849f28eca7f60" }
 tokio-io = { git = "https://github.com/tokio-rs/tokio" }
 tokio-tls = { git = "https://github.com/tokio-rs/tokio" }
 
